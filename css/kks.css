@@ -1,0 +1,26 @@
+@media only screen and (min-width: 600px) {
+  .l-header__inner {
+      height: 86px;
+      overflow: visible;
+  }
+}
+
+.l-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  overflow: hidden;
+}
+
+.header .header-main .gnav div ul li a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .header-main .gnav div ul li a em {
+  display: inline-block;
+  font-size: 18px;
+}
