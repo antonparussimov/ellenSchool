@@ -2271,7 +2271,7 @@ a {
 }
 
 .header-main .logo {
-  width: 92px;
+  width: 70px;
   flex-shrink: 0;
 }
 
@@ -2291,7 +2291,7 @@ a {
 
 @media only screen and (max-width: 767px) {
   .header-main .logo {
-    width: 65px;
+    width: 50px;
   }
 }
 
@@ -2743,6 +2743,7 @@ a {
 }
 
 #mv .mv-inner .mv-bg {
+  position: relative;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -5046,7 +5047,7 @@ body.form .ui-datepicker {
 }
 
 #to-top {
-#to  appearance: none;
+  appearance: none;
   padding: 0;
   width: 40px;
   height: 140px;
@@ -6753,8 +6754,8 @@ body.index .mv-bg {
 
 body.index .mv-catch {
   position: absolute;
-  right: 40px;
-  bottom: 70px;
+  left: 50%;
+  top: 50%;
   display: -webkit-flex;
   display: flex;
   -webkit-align-items: center;
@@ -6763,34 +6764,7 @@ body.index .mv-catch {
   flex-direction: column;
 }
 
-@media only screen and (max-width: 767px) {
-  body.index .mv-catch {
-    right: auto;
-    left: 30px;
-    bottom: 30px;
-    -webkit-align-items: flex-start;
-    align-items: flex-start;
-  }
-}
 
-body.index .mv-catch .en {
-  width: 640px;
-}
-
-@media only screen and (min-width: 768px) {
-  body.index .mv-catch .en {
-    height: 174px;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  body.index .mv-catch .en {
-    width: 320px;
-    position: relative;
-    left: -20px;
-    top: 20px;
-  }
-}
 
 body.index .mv-catch .ja {
   font-size: 16px;
@@ -7657,7 +7631,7 @@ body.index main .voice {
 }
 
 body.index main .voice .voice-inner {
-  background-color: #f8f2ec;
+  background-color: var(--color4);
   padding: 60px 0 55px;
   position: relative;
   margin: 0 40px;

@@ -1,18 +1,3 @@
-@media only screen and (min-width: 600px) {
-  .l-header__inner {
-      height: 86px;
-      overflow: visible;
-  }
-}
-
-.l-header__inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 60px;
-  overflow: hidden;
-}
-
 .header .header-main .gnav div ul li a {
   display: flex;
   flex-direction: column;
@@ -23,4 +8,70 @@
 .header .header-main .gnav div ul li a em {
   display: inline-block;
   font-size: 18px;
+}
+
+.mv-slider .item {
+  display: block;
+  position: relative;
+  height: 600px;
+}
+
+.mv-slider .item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mv-slider .item .item-text {
+  color: var(--color4);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  width: 100%;
+}
+
+.mv-slider .item .item-text h2 {
+  color: var(--color4);
+  font-size: 42px;
+}
+
+.mv-slider .item .item-text h3 {
+  color: var(--color4);
+  font-size: 32px;
+}
+
+.mv-slider .item .item-text p {
+  color: var(--color4);
+  font-size: 24px;
+  padding: 15px 0;
+}
+
+.mv-slider .item .item-text a {
+  font-size: 24px;
+  color: var(--color4);
+  background-color: var(--color7);
+  padding: 6px 32px;
+  text-decoration: none;
+  line-height: 1.5;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.mv-slider .item .item-text a:hover {
+  background-color: var(--color1);
+}
+
+.footer {
+  padding: 50px 0;
+}
+
+@media only screen and (min-width: 1000px) {
+  .sp-menu {
+    display: none !important;
+  }
 }

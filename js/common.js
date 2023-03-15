@@ -91,3 +91,21 @@ $(function () {
 		$(this).parent().hide();
 	})
 });
+
+$('#top-mv').slick({
+  dots: false,
+	prevArrow: false,
+	nextArrow: false,
+  autoplay: true,
+	autoplaySpeed: 3000,
+	speed: 1500,
+	fade: true,
+	arrows: true,
+	pauseOnFocus: false,
+	pauseOnHover: false,
+	infinite: true,
+	swipe: true,
+	waitForAnimate: false,
+	cssEase: "cubic-bezier(0.7, 0, 0.3, 1)",
+	
+});
