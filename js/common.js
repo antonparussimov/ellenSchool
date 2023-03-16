@@ -107,5 +107,4 @@ $('#top-mv').slick({
 	swipe: true,
 	waitForAnimate: false,
 	cssEase: "cubic-bezier(0.7, 0, 0.3, 1)",
-	
 });

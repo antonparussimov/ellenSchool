@@ -2145,7 +2145,7 @@ a {
 }
 
 .footer .copyright {
-  background-color: #d5c1ae;
+  background-color: var(--color1);
   text-align: center;
   padding: 22px 0 18px;
 }
@@ -7241,12 +7241,12 @@ body.index main .request .btn {
 }
 
 body.index main .strength {
-  margin-top: 140px;
+  margin-top: 100px;
 }
 
 @media only screen and (max-width: 767px) {
   body.index main .strength {
-    margin-top: 80px;
+    margin-top: 30px;
   }
 }
 
@@ -7621,18 +7621,18 @@ body.index main .about-bottom .contents .inner .btn {
 }
 
 body.index main .voice {
-  margin-top: 170px;
+  margin-top: 50px;
 }
 
 @media only screen and (max-width: 767px) {
   body.index main .voice {
-    margin-top: 110px;
+    margin-top: 15px;
   }
 }
 
 body.index main .voice .voice-inner {
   background-color: var(--color4);
-  padding: 60px 0 55px;
+  padding: 0 0 55px;
   position: relative;
   margin: 0 40px;
 }
