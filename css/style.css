@@ -19,11 +19,12 @@ writing-mode mixin
 :root {
   --color1: rgb(231, 133, 149);
   --color2: rgb(161, 161, 36);
-  --color3: gray;
+  --color3: rgb(95, 95, 95);
   --color4: white;
   --color5: rgb(73, 73, 27);
   --color6: #004e8e;
   --color7: #eb7aa3;
+  --color8: #f8f2ec;
 }
 
 
@@ -3003,7 +3004,7 @@ a {
   font-family: "Raleway", sans-serif;
   letter-spacing: 0.2em;
   color: #FFF;
-  background-color: #d3553c;
+  background-color: var(--color7);
   display: inline-block;
   text-align: center;
   padding-top: 24px;
@@ -3043,7 +3044,7 @@ a {
 }
 
 .btn>a:hover {
-  background-color: #9a9492;
+  background-color: var(--color2);
 }
 
 .btn>a:hover:after {
@@ -7775,6 +7776,10 @@ body.index main .voice .btn {
 
 body.index main .voice .btn a {
   background-color: var(--color7);
+}
+
+body.index main .voice .btn a:hover {
+  background-color: var(--color2);
 }
 
 @media only screen and (max-width: 767px) {
