@@ -67,7 +67,7 @@
 }
 
 .footer {
-  padding: 50px 0 0;
+  padding: 0;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -416,17 +416,19 @@ body.strength main .overview .sec-title {
   top: 250px;
   left: 100px;
   list-style-type: none !important;
+  font-size: 40px;;
 }
 
-.sns-share-sticky__list .sns-share-sticky__label {
-  color: var(--color7);
-  font-size: 24px;
-  font-weight: bold;
+@media only screen and (max-width: 1000px) {
+  .sns-share-sticky__list {
+    left: 50px;
+    font-size: 26px;
+  }
 }
 
 .sns-share-sticky__list .twitter-button {
   color: #1da1f2;
-  font-size: 48px;
+  font-size: inherit;
   font-weight: bold;
   margin-top: 25px;
   margin-bottom: 30px;
@@ -434,6 +436,101 @@ body.strength main .overview .sec-title {
 
 .sns-share-sticky__list .youtube-button {
   color: red;
-  font-size: 48px;
+  font-size: inherit;
   font-weight: bold; 
+}
+
+.o-video {
+  height: 0;
+  position: relative;
+  margin: 10px 40px 50px;
+  padding-top: 56.25%;
+  width: calc(100% - 80px);
+}
+.o-video > iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0;
+}
+
+.about .mv-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.left_title {
+  font-size: 32px!important;
+}
+
+.about main .overview p {
+  font-size: 24px;
+  line-height: 2.6;
+  color: var(--color3);
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+body.about main .facility ul h4 {
+  text-align: center;
+}
+
+body.about main .facility ul p {
+  color: var(--color3);
+}
+
+body.about main .facility ul h3 {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  /* color: var(--color3); */
+}
+
+body.about main .facility ul .sub-title {
+  color: var(--color3);
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.about main .rule p {
+  font-size: 18px;
+  color: var(--color3);
+  line-height: 1.6;
+  margin-bottom: 36px;
+  padding: 0 10px;
+}
+
+.about main .rule .title {
+  font-size: 24px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about main .privacy p {
+  font-size: 18px;
+  color: var(--color3);
+  line-height: 1.6;
+  margin-bottom: 36px;
+  padding: 0 10px;
+}
+
+.about main .privacy .title {
+  font-size: 24px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: left;
 }

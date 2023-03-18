@@ -3047,7 +3047,7 @@ a {
 }
 
 .btn>a:hover:after {
-  background-image: url(../images/index/arrow-r-h.png);
+  background-image: url(../images/index/arrow-r.png);
 }
 
 .btn.left {
@@ -3699,7 +3699,7 @@ body.form ul.steps li .ja {
 
 body.form section.form {
   background-color: #f8f2ec;
-  padding: 98px 0 200px;
+  padding: 1px 0 50px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -5570,18 +5570,20 @@ body.about main .concept .box2 .cont .box-right {
 }
 
 body.about main .facility {
-  padding: 99px 0 85px;
+  margin-top: 50px;
+  padding: 20px 0 10px;
   background-color: #f8f2ec;
 }
 
 @media only screen and (max-width: 767px) {
   body.about main .facility {
-    padding: 59px 0 52px;
+    margin-top: 30px;
+    padding: 10px 0 5px;
   }
 }
 
 body.about main .facility ul {
-  margin-top: 50px;
+  margin-top: 30px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -5624,7 +5626,7 @@ body.about main .facility ul h4 {
   font-size: 2.2rem;
   letter-spacing: 0.1em;
   font-weight: 500;
-  color: #d3553c;
+  color: var(--color1);
   margin-bottom: 20px;
 }
 
@@ -5652,12 +5654,12 @@ body.about main .facility ul p {
 }
 
 body.about main .overview {
-  padding: 100px 0 201px;
+  padding: 100px 0 0px;
 }
 
 @media only screen and (max-width: 767px) {
   body.about main .overview {
-    padding: 58px 0 110px;
+    padding: 58px 0 30px;
   }
 }
 
@@ -7621,7 +7623,7 @@ body.index main .about-bottom .contents .inner .btn {
 }
 
 body.index main .voice {
-  margin-top: 50px;
+  margin: 50px 0;
 }
 
 @media only screen and (max-width: 767px) {

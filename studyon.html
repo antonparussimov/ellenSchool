@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <!-- Vieport======================================================================-->
+    <script src="./js/ipadOSmin.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+      maximum-scale=1, user-scalable=0">
+    <script>
+			isIpadOS() ? document.querySelectorAll('meta[name="viewport"]')[0].setAttribute("content", "width=1280px, shrink-to-fit=yes") : '';
+		</script>
+    <!-- SEO======================================================================-->
+    <title>Studyon</title>
+    <meta name="description"
+      content="Studyon">
+    <meta name="keywords" content="">
+
+    <!--CSS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&family=Raleway:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/kks.css">
+    <link rel="stylesheet" href="./css/slick.min.css">
+  </head>
+
+  <body class="about">
+    <header class="header" id="header">
+      
+    </header>
+    <!-- Wrap======================================================================-->
+    <div class="wrap">
+      <div class="o-video">
+        <iframe src="./images/stydyon/youtube.mp4" frameborder="0"
+          allowfullscreen></iframe>
+      </div>
+
+      <div id="mv">
+        <div class="mv-inner">
+          <img src="./images/stydyon/studyon.png" alt="">
+          <div class="mv-catch">
+            <span class="en">Studyon</span>
+          </div>
+        </div>
+      </div>
+
+      <main>
+        <section class="overview">
+          <div class="inner">
+            <p class="left_title left ">Studyonとは</p>
+            <p class="center">「大人が本気で英語を学ぶ」オンラインサロンです。</p>
+            <p class="center">何かと忙しい私たち大人世代ですが、グローバルの波は確実に押し寄せていますよね。</p>
+            <p class="center">本気で学び、楽しく英語力を活用し、人生の選択肢を一緒に増やしましょう！</p>
+            <p class="center">Elleが全力でサポートします！！</p>
+            <p class="left">・TOEICスコアアップ・英検取得・英語の基礎作り・英語の学び直し・スピーキング・</p>
+            <p class="right">を目的とした大人学習者のためのオンラインサロンです。</p>
+          </div>
+        </section>
+
+        <section class="facility" id="facility">
+          <div class="inner">
+            <ul>
+              <li>
+                <div class="block">
+                  <h4>TOEIC 101</h4>
+                  <div>
+                    <img src="./images/stydyon/studyon-101.png" alt="アステルビル" />
+                  </div>
+                  <h3>月額3,300円</h3>
+                  <p class="sub-title">TOEIC500点突破を目指すクラス</p>
+                  <p>
+                    TOEIC101のクラスでは、TOEIC500点の壁を超える為に必要な英語の基礎力（文法力）を導入し直し、読解力を底上げします。<br>
+                    ・英語（文法）を基礎から学ぶ <br>
+                    ・1回90分 ライブ講座 月2回 <br>
+                    ・ライブで学習相談ができる
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="block">
+                  <h4>TOEIC 102</h4>
+                  <div>
+                    <img src="./images/stydyon/studyon-102.png" alt="トレーニングルーム" />
+                  </div>
+                  <h3>月額3,300円</h3>
+                  <p class="sub-title">TOEIC700点突破を目指すクラス</p>
+                  <p>完全個室のトレーニングルームを5室用意しており、周りを気にすることなくトレーニングに集中することができます。また、ペアトレーニングルームでは、カップルや友達と一緒にトレーニングを行うこともできます。</p>
+                </div>
+              </li>
+              <li>
+                <div class="block">
+                  <h4>TOEIC 103</h4>
+                  <div class="pc">
+                    <img src="./images/stydyon/studyon-103.png" alt="有酸素スペース">
+                  </div>
+                  <h3>月額3,300円</h3>
+                  <p class="sub-title">TOEIC900点突破を目指すクラス</p>
+                  <p>有酸素スペースには、最新のランニングマシーンやエアロバイクなどを設置しており、回数制限なく自由に利用いただくことができます。トレーニング後の軽い運動や会社帰り、仕事の休み時間などにご活用ください。</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </main>
+
+
+
+      <!-- Footer
+	======================================================================-->
+      <footer class="footer" id="footer">
+      </footer>
+
+    </div>
+
+    <!-- Scripts
+======================================================================-->
+    <script src="./js/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.1/jquery-migrate.min.js"
+      crossorigin="anonymous"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/common.js"></script>
+    <script type="text/javascript"
+      src="https://unpkg.com/external-svg-loader@1.2.0/svg-loader.min.js" async></script>
+    <script src="https://kit.fontawesome.com/8cbdf0a85f.js"
+      crossorigin="anonymous"></script>
+
+    <script>
+      $(function(){
+				$("#header").load("header.html"); 
+
+				$("#footer").load("footer.html");
+			});
+    </script>
+  </body>
+</html>

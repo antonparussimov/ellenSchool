@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <!-- Vieport======================================================================-->
+    <script src="./js/ipadOSmin.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+      maximum-scale=1, user-scalable=0">
+    <script>
+			isIpadOS() ? document.querySelectorAll('meta[name="viewport"]')[0].setAttribute("content", "width=1280px, shrink-to-fit=yes") : '';
+		</script>
+    <!-- SEO======================================================================-->
+    <title>Studyon</title>
+    <meta name="description"
+      content="Studyon">
+    <meta name="keywords" content="">
+
+    <!--CSS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&family=Raleway:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/kks.css">
+    <link rel="stylesheet" href="./css/slick.min.css">
+  </head>
+
+  <body class="contact form">
+    <header class="header" id="header"></header>
+
+    <!-- Wrap======================================================================-->
+    <div class="wrap">
+      <!-- Main Content	======================================================================-->
+      <main>
+        <section class="form">
+          <div class="inner">
+            <div class="form-wrap">
+              <form id="form1" name="form1" method="post" action="./confirm/">
+                  <table class="first">
+                    <tr>
+                      <th>
+                        <div class="th-txt flex-row">
+                          <em class="req">必須</em>
+                          <div class="th-ttl">お名前</div>
+                        </div>
+                      </th>
+                      <td>
+                        <input type="text" name="reg_name" value="" data-validation-engine="validate[required]"  placeholder="（例）吉田 文子">
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th>
+                        <div class="th-txt flex-row">
+                          <em class="req">必須</em>
+                          <div class="th-ttl">メールアドレス</div>
+                        </div>
+                      </th>
+                      <td>
+                        <input type="email" id="mail-input1" name="f_mail" value=""  title="（例）info@elle315.com" data-validation-engine="validate[required]" placeholder="（例）info@elle315.com">
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th>
+                        <div class="th-txt flex-row">
+                          <em class="req">必須</em>
+                          <div class="th-ttl">お問い合わせ種別</div>
+                        </div>
+                      </th>
+                      <td>
+                        <div class="radio-row flex-row reg">
+                          <div class="checkerradio reg check-style">
+                            <input class="check" type="radio" name="check1" value="個人レッスンについて" data-validation-engine="validate[required]"><label>個人レッスンについて</label><div class="effec"></div>
+                          </div>
+                          <div class="checkerradio reg check-style">
+                            <input class="check" type="radio" name="check1" value="オンラインサロン （Studyon）について" data-validation-engine="validate[required]"><label>オンラインサロン （Studyon）について</label><div class="effec"></div>
+                          </div>
+                          <div class="checkerradio reg check-style">
+                            <input class="check" type="radio" name="check1" value="お仕事依頼" data-validation-engine="validate[required]"><label>お仕事依頼</label><div class="effec"></div>
+                          </div>
+                          <div class="checkerradio reg check-style">
+                            <input class="check" type="radio" name="check1" value="その他" data-validation-engine="validate[required]"><label>その他</label><div class="effec"></div>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                  <table>
+                    <tr>
+                      <th>
+                        <div class="th-txt flex-row">
+                          <em class="nreq">任意</em>
+                          <div class="th-ttl">お問い合わせ内容</div>
+                        </div>
+                      </th>
+                      <td class="long">
+                        <textarea name="f_request" placeholder="Studyon..."></textarea>
+                      </td>
+                    </tr>
+                  </table>
+                <div class="align-center">
+                  <div class="btn" id="send-bt">
+                    <input type="hidden" name="input_flag" value="true">
+                    <input type="submit" value="">
+                    <span class="arrow"></span>
+                    <span class="txt">お問い合わせ内容を確認</span>
+                  </div>
+                </div>
+  
+              </form>
+            </div>
+  
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer	======================================================================-->
+      <footer class="footer" id="footer"></footer>
+
+    </div>
+
+    <!-- Scripts
+======================================================================-->
+    <script src="./js/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.1/jquery-migrate.min.js"
+      crossorigin="anonymous"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/common.js"></script>
+    <script type="text/javascript"
+      src="https://unpkg.com/external-svg-loader@1.2.0/svg-loader.min.js" async></script>
+    <script src="https://kit.fontawesome.com/8cbdf0a85f.js"
+      crossorigin="anonymous"></script>
+
+    <script>
+      $(function(){
+				$("#header").load("header.html"); 
+
+				$("#footer").load("footer.html");
+			});
+    </script>
+  </body>
+</html>

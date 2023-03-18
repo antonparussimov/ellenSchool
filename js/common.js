@@ -87,6 +87,7 @@ $(function () {
 			scrollTop: 0
 		}, 500, "swing");
 	});
+	
 	$('.ads span').click(function() {
 		$(this).parent().hide();
 	})
